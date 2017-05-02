@@ -5,6 +5,14 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
 }
 
+.lobster{
+  font-family: 'lobster', cursive;
+}
+
+.orange{
+  color:#f8512f;
+
+}
 /*NAVBAR*/
 .navbar-default{
   background-color: transparent;
@@ -69,4 +77,23 @@ h1,h2,h3,h4,h5,h6 {
 .btn-default:hover{
   color: #fff;
   background-color: #d34326;
+}
+
+/*OUR STORY*/
+
+#our-story h1.lobster{
+  text-shadow: 2px 2px #b7b7b7;
+  font-size: 4.5em;
+}
+
+#our-story{
+  margin-top: 40px
+}
+
+#year-text{
+  position: absolute;
+  font-size: 10em;
+  color: rgba(0, 0, 0, 0.163);
+  z-index: 0;
+  font-family: 'playfair-display', serif;
 }
